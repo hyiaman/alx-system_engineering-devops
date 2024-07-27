@@ -1,1 +1,3 @@
-0x06-regular_expressions
+#0x06. Regular expression
+Regex
+DevOps
