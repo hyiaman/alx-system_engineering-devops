@@ -41,7 +41,7 @@ frontend nextinn-frontend
         default_backend nextinn-backend
 
 frontend nextinn-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/nextinn.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend nextinn-backend
 
