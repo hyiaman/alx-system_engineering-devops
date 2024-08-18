@@ -41,7 +41,7 @@ frontend nextinn-tech-frontend
 backend nextinn-tech-backend
     balance roundrobin
     server 322832-web-01 34.207.62.252:80 check
-    server 322832-web-02 52.86.163.82:80 check
+    server 322832-web-02 100.26.132.44:80 check
 "
 
 # shellcheck disable=SC2154
