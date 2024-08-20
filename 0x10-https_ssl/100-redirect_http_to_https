@@ -41,7 +41,7 @@ frontend nextinn-tech-frontend
         default_backend nextinn-tech-backend
 
 frontend nextinn-tech-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/nextinn.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.nextinn.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend nextinn-tech-backend
 
